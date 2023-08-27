@@ -1,5 +1,5 @@
-var todolist = artifacts.require("./todolist.sol");
+var ProfileLocation = artifacts.require("./ProfileLocation.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(todolist);
+  deployer.deploy(ProfileLocation);
 };
